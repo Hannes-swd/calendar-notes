@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.hannes-swd.calendar-notes",
+  "name": "Calendar Notes",
+  "version": "1.0.0",
+  "author": "Hannes-swd",
+  "license": "MIT",
+  "description": "The Omarchy bar clock and calendar, with click-to-add notes per day",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Calendar Notes",
+    "description": "Date/time label with a calendar popup you can write on",
+    "category": "Time",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.clock"
+  }
+}
