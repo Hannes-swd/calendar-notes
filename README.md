@@ -27,7 +27,7 @@ has one.
 ## Install
 
 ```sh
-omarchy plugin add https://github.com/Hannes-swd/omarchy-calendar-notes.git --enable
+omarchy plugin add https://github.com/Hannes-swd/calendar-notes.git --enable
 ```
 
 Because the manifest declares itself as a clone of the built-in
